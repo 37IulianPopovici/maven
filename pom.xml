@@ -25,7 +25,7 @@ under the License.
     <artifactId>maven-parent</artifactId>
     <!-- when upgrading parent, also upgrade maven-bom's parent -->
     <version>41</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <artifactId>maven</artifactId>
@@ -175,14 +175,14 @@ under the License.
     <plexusInteractivityVersion>1.1</plexusInteractivityVersion>
     <plexusInterpolationVersion>1.26</plexusInterpolationVersion>
     <plexusTestingVersion>1.0.0</plexusTestingVersion>
-    <plexusXmlVersion>4.0.1</plexusXmlVersion>
+    <plexusXmlVersion>4.0.4</plexusXmlVersion>
     <resolverVersion>2.0.0-alpha-6</resolverVersion>
     <securityDispatcherVersion>2.0</securityDispatcherVersion>
     <sisuVersion>0.9.0.M2</sisuVersion>
     <slf4jVersion>2.0.11</slf4jVersion>
     <stax2ApiVersion>4.2.1</stax2ApiVersion>
     <wagonVersion>3.5.3</wagonVersion>
-    <woodstoxVersion>6.5.1</woodstoxVersion>
+    <woodstoxVersion>6.7.0</woodstoxVersion>
     <xmlunitVersion>2.9.1</xmlunitVersion>
   </properties>
 
@@ -630,7 +630,7 @@ under the License.
               <palantirJavaFormat>
                 <version>2.38.0</version>
               </palantirJavaFormat>
-              <removeUnusedImports />
+              <removeUnusedImports/>
               <importOrder>
                 <file>config/maven-eclipse-importorder.txt</file>
               </importOrder>
